@@ -110,8 +110,8 @@ const Footer = createClass({
       href: "https://github.com/stolksdorf/word-counter",
       className: "repo"
     }, React.createElement("i", {
-      className: "fab fa-github"
-    }), "\xA0 Issue, bug, suggestion, wanna see the code? Click here to check out the repo.")), React.createElement("p", null, "made with ", React.createElement("i", {
+      className: "far fa-comments"
+    }), "\xA0 Issue, bug, suggestion, Click here to give feedback from contact form.")), React.createElement("p", null, "made with ", React.createElement("i", {
       className: "fa fa-heart"
     }), ".")), 
                        
