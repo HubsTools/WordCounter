@@ -105,7 +105,15 @@ const Footer = createClass({
     }, "HubsAdda Tools"), ", and made this Ad Free."), 
                            
                            
-                        
+                           React.createElement("p", null, React.createElement("a", {
+      target: "_blank",
+      href: "https://github.com/stolksdorf/word-counter",
+      className: "repo"
+    }, React.createElement("i", {
+      className: "fab fa-github"
+    }), "\xA0 Issue, bug, suggestion, wanna see the code? Click here to check out the repo.")), React.createElement("p", null, "made with ", React.createElement("i", {
+      className: "fa fa-heart"
+    }), ".")), 
                        
                             
                             React.createElement("div", {
