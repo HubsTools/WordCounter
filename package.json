@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stolksdorf/word-counter.git"
+    "url": "git+https://github.com/HubsTools/WordCounter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stolksdorf/word-counter/issues"
+    "url": "https://github.com/HubsTools/WordCounter/issues"
   },
-  "homepage": "https://github.com/stolksdorf/word-counter#readme",
+  "homepage": "https://github.com/HubsTools/WordCounter#readme",
   "vitreum": {
     "targets": [
       "client/main/main.jsx"
@@ -41,7 +41,6 @@
     "node_modules/*"
   ],
   "dependencies": {
-     "set-value": "^2.0.1",
     "@babel/core": "^7.1.2",
     "@babel/preset-react": "^7.0.0",
     "classnames": "^2.2.6",
@@ -52,7 +51,6 @@
     "vitreum": "^5.3.2"
   },
   "devDependencies": {
-    "set-value": "^2.0.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.6.1",
     "eslint-plugin-react": "^7.11.1"
