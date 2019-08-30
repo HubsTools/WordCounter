@@ -98,19 +98,17 @@ const Footer = createClass({
       className: "container"
     }, React.createElement("div", {
       className: "left"
-    }, React.createElement("h3", null, "About"), React.createElement("p", null, "This page built to be used with ", React.createElement("a", {
-      href: "https://itch.io/jam/micro-rpg-jam"
-    }, "Micro-RPG Jam"), ",  ", React.createElement("a", {
-      href: "https://200wordrpg.github.io/"
-    }, "200 Word RPG Challenge"), ", and other things like that."), React.createElement("p", null, React.createElement("a", {
-      target: "_blank",
-      href: "https://github.com/stolksdorf/word-counter",
-      className: "repo"
-    }, React.createElement("i", {
-      className: "fab fa-github"
-    }), "\xA0 Issue, bug, suggestion, wanna see the code? Click here to check out the repo.")), React.createElement("p", null, "made with ", React.createElement("i", {
-      className: "fa fa-heart"
-    }), ".")), React.createElement("div", {
+    }, React.createElement("h3", null, "About"), React.createElement("p", null, "This page is maintained by ", React.createElement("a", {
+      href: "https://hubsadda.com"
+    }, "HubsAdda"), ",  ", React.createElement("a", {
+      href: "https://tools.hubsadda.com/"
+    }, "HubsAdda Tools"), ", and made this Ad Free."), 
+                           
+                           
+                        
+                       
+                            
+                            React.createElement("div", {
       className: "right"
     }, React.createElement("h3", null, "Features"), React.createElement("ul", null, React.createElement("li", null, "Simple and clean"), React.createElement("li", null, "Smart word counting"), React.createElement("li", null, "Tables and ASCII Art are not counted"), React.createElement("li", null, "Tab icon and title updates automatically"), React.createElement("li", null, "Autosaves content to your browser")))));
   }
