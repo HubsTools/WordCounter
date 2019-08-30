@@ -107,7 +107,7 @@ const Footer = createClass({
                            
                            React.createElement("p", null, React.createElement("a", {
       target: "_blank",
-      href: "https://github.com/stolksdorf/word-counter",
+      href: "https://hubsadda.com/contact",
       className: "repo"
     }, React.createElement("i", {
       className: "far fa-comments"
