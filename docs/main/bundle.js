@@ -26,7 +26,7 @@ arguments[4][1][0].apply(exports,arguments)
 },{"dup":1}],10:[function(require,module,exports){
 arguments[4][1][0].apply(exports,arguments)
 },{"dup":1}],11:[function(require,module,exports){
-module.exports = `Type here to get a live word count.`;
+module.exports = `Type here to get a live word count. First Delete This Prewritten Word 😊`;
 },{}],12:[function(require,module,exports){
 const React = require('react');
 
@@ -153,7 +153,7 @@ const Main = createClass({
 
   getInitialState() {
     return {
-      title: 'Your next micro-rpg',
+      title: 'Title Goes Here',
       text: DefaultText
     };
   },
