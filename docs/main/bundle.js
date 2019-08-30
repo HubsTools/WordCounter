@@ -26,7 +26,7 @@ arguments[4][1][0].apply(exports,arguments)
 },{"dup":1}],10:[function(require,module,exports){
 arguments[4][1][0].apply(exports,arguments)
 },{"dup":1}],11:[function(require,module,exports){
-module.exports = `Type here to get a live word count. First Delete This Prewritten Word 😊`;
+module.exports = `Type here to get a live word count. First Delete This Text 😊`;
 },{}],12:[function(require,module,exports){
 const React = require('react');
 
@@ -183,7 +183,7 @@ const Main = createClass({
     const count = wordCount(this.state.text);
     return React.createElement("div", {
       className: "Main"
-    }, React.createElement(Title, null, this.state.title || 'word.counter'), React.createElement(DynamicFavicon, {
+    }, React.createElement(Title, null, this.state.title || 'Word Counter'), React.createElement(DynamicFavicon, {
       wordCount: count
     }), React.createElement("div", {
       className: "container"
