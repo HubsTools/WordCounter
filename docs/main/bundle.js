@@ -108,7 +108,7 @@ const Footer = createClass({
                            React.createElement("p", null, React.createElement("a", {
       target: "_blank",
       href: "https://hubsadda.com/contact",
-      className: "repo"
+      className: "far fa-comments"
     }, React.createElement("i", {
       className: "far fa-comments"
     }), "\xA0 Issue, bug, suggestion, Click here to give feedback from contact form.")), React.createElement("p", null, "made with ", React.createElement("i", {
